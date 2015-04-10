@@ -1,6 +1,6 @@
 #ND Deploy
 
-The purpose of this gem is to render any ruby compatible with the ND Launchpad deployment platform.
+The purpose of this gem is to render any ruby app compatible with the ND Launchpad deployment platform.
 
 ## Installation
 
@@ -39,7 +39,9 @@ $ rails generate nd_deploy_initializer
 Edit /config/deployment_config with the appropriate git repo and app name.  A future update will auto-populate this information.
 
 deplyment_config
+
 set :GITHUB_SSH, "git@bitbucket.org:rdelossa/APP_NAME.git"
+
 set :APP_NAME, "APP_NAME"
 
 <h4>Launchpad</h4>
