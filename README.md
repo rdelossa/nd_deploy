@@ -38,7 +38,7 @@ $ rails generate nd_deploy_initializer
 
 Edit /config/deployment_config with the appropriate git repo and app name.  A future update will auto-populate this information.
 
-deplyment_config
+deployment_config
 
 set :GITHUB_SSH, "git@bitbucket.org:rdelossa/APP_NAME.git"
 
