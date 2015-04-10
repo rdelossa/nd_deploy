@@ -1,0 +1,49 @@
+#remember to create a symbolic link of this file into the NGINX configure path
+#'/usr/local/openresty/nginx/conf/sites-enabled' and modify the default NGINX config
+# file to include this line 'include /usr/local/openresty/nginx/conf/sites-enabled/*;'
+upstream ndapi_unicorn {
+	server unix:/tmp/.unicorn-ndapi.sock;
+}
+
+server {
+    listen         80;
+    return 301 https://$host$request_uri;
+}
+
+#server{
+#
+#	listen 80;
+#
+#	root /apps/ndapi/public;
+#	try_files $uri/index.html $uri @redirect;
+#
+#	location @redirect{
+#		proxy_set_header X_Forwarded_Proto	http;
+#		proxy_set_header Host $http_host;
+#		proxy_pass https://ndapi_unicorn;
+#	}
+#
+#}
+
+server{
+
+	listen 443 ssl;
+        error_log  /tmp/nginx_error.log  warn;
+
+	root /apps/ndapi/public;
+	try_files $uri/index.html $uri @ndapi_unicorn;
+
+	location @ndapi_unicorn{
+		proxy_set_header X-Real-IP		$remote_addr;
+		proxy_set_header X-Forwarded-For	$proxy_add_x_forwarded_for;
+		proxy_set_header X-Forwarded_Proto	https;
+		proxy_set_header Host 			$http_host;
+		proxy_redirect				off;
+		proxy_pass 				http://ndapi_unicorn;
+	}
+
+	ssl on;
+	ssl_certificate /usr/local/openresty/nginx/ssl/server.crt;
+	ssl_certificate_key /usr/local/openresty/nginx/ssl/server.key;
+
+}
