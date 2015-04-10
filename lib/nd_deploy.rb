@@ -17,7 +17,7 @@ class NdDeployInitializerGenerator < Rails::Generators::Base
     
     def create_initializer_file
         
-        static_files_path = File.expand_path(File.dirname(__FILE__)) + '/nd_deploy/static_files' #the '__FILE__' consists of two underscores
+        static_files_path = File.expand_path(File.dirname(__FILE__)) + '/static_files' #the '__FILE__' consists of two underscores
         
         puts static_files_path
         

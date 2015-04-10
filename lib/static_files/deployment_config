@@ -1,6 +1,6 @@
 # use capistrano syntax here!
-set :GITHUB_SSH, "git@github.com:ndoit/rails-web-api.git"
-set :APP_NAME, "ndapi"
+set :GITHUB_SSH, "git@bitbucket.org:rdelossa/catalog_api.git"
+set :APP_NAME, "catalog_api"
 
 
 set :HTTP_PORT, 80

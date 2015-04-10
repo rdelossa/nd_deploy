@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nd_deploy (0.0.1)
+    nd_deploy (0.0.2)
       capistrano
       capistrano-rvm
 
