@@ -47,3 +47,12 @@ Edit /config/deployment_config with the appropriate git repo and app name.  A fu
 
 Once your app has been set up in Launchpad you will be able to deploy it.
 
+## Contributing
+
+1. Fork it ( http://github.com/<my-github-username>/webservices/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+
