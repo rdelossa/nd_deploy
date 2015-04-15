@@ -24,17 +24,17 @@ https://github.com/bundler/bundler/blob/master/ISSUES.md
 
 <h4>Start a new app to test this gem</h4>
 
-$ rails new test_app
+    $ rails new test_app
 
 Move into the newly created app folder
 
-$ cd test_app
+    $ cd test_app
 
 Following the installation directions above.
 
 <h4>Create the initializer</h4>
 
-$ rails generate nd_deploy_initializer
+    $ rails generate nd_deploy_initializer
 
 Edit /config/deployment_config with the appropriate git repo and app name.  A future update will auto-populate this information.
 
