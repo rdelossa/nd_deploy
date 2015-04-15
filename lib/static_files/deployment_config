@@ -1,6 +1,6 @@
 # use capistrano syntax here!
-set :GITHUB_SSH, "git@bitbucket.org:rdelossa/catalog_api.git"
-set :APP_NAME, "catalog_api"
+set :GITHUB_SSH, "git@bitbucket.org:user_name/repo.git"
+set :APP_NAME, "app_name"
 
 
 set :HTTP_PORT, 80
