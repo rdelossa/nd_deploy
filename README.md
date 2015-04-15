@@ -32,7 +32,7 @@ Move into the newly created app folder
 
 Following the installation directions above.
 
-<h4>Create the initializer</h4>
+<h4>Run the initializer</h4>
 
     $ rails generate nd_deploy_initializer
 
