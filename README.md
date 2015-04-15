@@ -38,11 +38,10 @@ Following the installation directions above.
 
 Edit /config/deployment_config with the appropriate git repo and app name.  A future update will auto-populate this information.
 
-deployment_config
+/config/deployment_config
 
-set :GITHUB_SSH, "git@bitbucket.org:rdelossa/APP_NAME.git"
-
-set :APP_NAME, "APP_NAME"
+    set :GITHUB_SSH, "git@bitbucket.org:user_name/APP_NAME.git"
+    set :APP_NAME, "APP_NAME"
 
 <h4>Launchpad</h4>
 
