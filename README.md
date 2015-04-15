@@ -6,15 +6,15 @@ The purpose of this gem is to render any ruby app compatible with the ND Launchp
 
 Add this line to your application's Gemfile:
 
-gem 'nd_deploy', :git => 'https://bitbucket.org/notredameregistrar/nd_deploy.git'
+    gem 'nd_deploy', :git => 'git@github.com:rdelossa/nd_deploy.git', :tag => '0.0.2'
 
 And then execute:
 
-$ bundle
+    $ bundle
 
 Or install it yourself as:
 
-$ gem install nd_deploy
+    $ gem install nd_deploy
 
 If you have any issues using the gem from the repo follow these directions:
 
