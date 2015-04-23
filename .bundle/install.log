@@ -1,0 +1,11 @@
+# Logfile created on 2015-04-15 09:29:54 -0400 by logger.rb/44203
+I, [2015-04-15T09:29:54.300438 #63888]  INFO -- : 0:  rake (10.4.2) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/rake-10.4.2.gemspec
+I, [2015-04-15T09:29:54.300782 #63888]  INFO -- : 0:  bundler (1.5.1) from /Users/rdelossa/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+I, [2015-04-15T09:29:54.301085 #63888]  INFO -- : 0:  i18n (0.7.0) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/i18n-0.7.0.gemspec
+I, [2015-04-15T09:29:54.301381 #63888]  INFO -- : 0:  colorize (0.7.5) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/colorize-0.7.5.gemspec
+I, [2015-04-15T09:29:54.301705 #63888]  INFO -- : 0:  net-ssh (2.9.2) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/net-ssh-2.9.2.gemspec
+I, [2015-04-15T09:29:54.302016 #63888]  INFO -- : 0:  net-scp (1.2.1) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/net-scp-1.2.1.gemspec
+I, [2015-04-15T09:29:54.302353 #63888]  INFO -- : 0:  sshkit (1.7.1) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/sshkit-1.7.1.gemspec
+I, [2015-04-15T09:29:54.302709 #63888]  INFO -- : 0:  capistrano (3.4.0) from /Users/rdelossa/.rvm/gems/ruby-2.1.0/specifications/capistrano-3.4.0.gemspec
+I, [2015-04-15T09:29:54.303055 #63888]  INFO -- : 0:  capistrano-rvm (0.1.2) from /Users/rdelossa/.rvm/gems/ruby-2.1.0@global/specifications/capistrano-rvm-0.1.2.gemspec
+I, [2015-04-15T09:29:54.374694 #63888]  INFO -- : 0:  nd_deploy (0.0.2) from /Users/rdelossa/RoR/GEMS/nd_deploy/nd_deploy.gemspec

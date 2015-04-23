@@ -1,6 +1,6 @@
 #ND Deploy
 
-The purpose of this gem is to render any ruby app compatible with the ND Launchpad deployment platform.
+The purpose of this gem is to render any ruby app compatible with the ND local development.
 
 ## Installation
 
